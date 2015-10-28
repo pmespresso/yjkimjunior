@@ -1,0 +1,120 @@
+/* ===== GENERAL =====
+
+Sexy Text: 	
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+
+
+Shades of Orange
+
+Darkest
+	Spanish Orange: #E86100;
+	Dark Orange: #FF8C00;
+	Chrome Yellow: #FFA700;
+	Golden Poppy: #FCC200;
+Lightest
+*/
+
+/* ==== GLOBAL ==== */
+.row {
+	padding: 10px;
+	margin: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h1, h2 {
+	margin: 0 0 40px;
+}
+
+h3 {
+	margin: 20px 0;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+img {
+	width: 100%;
+}
+
+button {
+	color: white;
+}
+
+p.lead {
+	margin: 0 8px 0 6px;
+}
+
+p.lead a {
+	color: green;
+	font-weight: normal;
+}
+
+p.lead a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.button, input, .btn, a.btn {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	color: white;
+}
+
+.btn-warning {
+	background: #FFA700 !important;
+}
+
+.btn-warning:hover {
+	background: #FF8C00 !important;
+}
+
+/* ====== LAYOUT ===== */
+
+section {
+	padding: 20px 0 50px 0;
+}
+
+.col-md-6 {
+	padding: 20px;
+	margin: 20px;
+}
+
+.video-section .pattern-overlay {
+padding: 250px;
+min-height: 100%; 
+/* Incase of overlay problems just increase the min-height*/
+}
+.video-section h1, .video-section h2{
+text-align:center;
+color:#fff;
+}
+.video-section h1{
+font-size:110px;
+font-family: 'Buenard', serif;
+font-weight:bold;
+text-transform: uppercase;
+margin: 40px auto 0px;
+text-shadow: 1px 1px 1px #000;
+-webkit-text-shadow: 1px 1px 1px #000;
+-moz-text-shadow: 1px 1px 1px #000;
+}
+.video-section h2{
+font-size: 25px;
+font-weight:lighter;
+margin: 0px auto 15px;
+}
+.video-section .buttonBar{display:none;}
+.player {font-size: 1px;}
+
+
